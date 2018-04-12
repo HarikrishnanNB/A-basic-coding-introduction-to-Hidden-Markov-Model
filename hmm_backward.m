@@ -44,3 +44,4 @@ for i = length(symbol)-1:-1:1
     BP_temp = AP;
     
 end
+P = sum(BP(:,1).*EP(:,1)*0.5)

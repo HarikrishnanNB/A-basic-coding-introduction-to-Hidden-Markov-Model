@@ -39,3 +39,4 @@ for i = 2:length(symbol)
     AP = T*FP(:,i-1) .* EP(:,i);
     FP =[FP AP];
 end
+P = sum(FP(:,end))
